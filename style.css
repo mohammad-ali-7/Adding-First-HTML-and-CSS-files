@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 80px;
+    font-style: normal; 
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Header styles */
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+    background-color: black; 
+}
+
+.Header.visible {
+    transform: translateY(0);
+}
+
+.Logo{
+    padding: 5px;
+    padding-left: 70px;
+    font-size: 16px;
+}
+
+.Logo a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-right: 90px;
+    font-size: 20px;
+    gap: 24px;
+    margin-top: 10px; ;
+}
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 10px;
+    color: #FF5C33;
+    padding: 3.4px;
+}
+
+/* btn styles */
+
+.btn{
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn .Start{
+    background-color: #FF5C33;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 10px;
+    gap: 20px;
+    color: white;
+}
+
+.btn .LogIn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 35px;
+    gap: 20px;
+    color: white;
+}
+
+.btn .LogIn:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn .Start:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+/* Main */
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0A0A0A;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #2c2b2b;
+}
+
+.Main h1{
+    font-size: 100px;
+    padding: 20px;
+}
+
+.Main p{
+    font-size: 45px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-right: 100px;
+    text-align: center; 
+}
+
+.Main .btn2{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px;
+    padding-right: 100px;
+    gap: 20px;
+    color: white;
+}
+
+.Main .Start2{
+    background-color: #FF5C33;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.Main .Start2:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.Main .Demo{
+    background-color: #0A0A0A;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.Main .Demo:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.Main .p2{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+
+.Svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 60px;
+}
+
+
+.Video{
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main2 */
+
+.Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #2c2b2b;
+    background-image: url(/watercolor-2\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-blend-mode: multiply;
+}
+
+.Main2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Main2 h1{
+    font-size: 70px;
+    padding: 20px;
+}
+
+.Main2 h2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.Main2 .p3{
+    font-size: 20px;
+    padding: 20px;
+    color: gray;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.Main2 .btn3{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px;
+    padding-right: 100px;
+    gap: 20px;
+    color: white;
+}
+
+.Main2 .Start3{
+    background-color: #FF5C33;
+    border-radius: 35px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.Main2 .Start3:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.Main2 .Demo2{
+    background-color: #000;
+    cursor: pointer;
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+}
+
+.Main2 .Demo2:hover{
+    background-color: gray;
+    transition: 0.5s;
+    color: #000;
+    border: 2px solid #000;
+}
+
+/* Footer */
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 20px;
+    padding-bottom: 400px;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.Footer .Logo2{
+    padding: 5px;
+    padding-left: 70px;  
+    padding-right: 100px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.Footer .Logo2 a{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.LogoIcons i {
+    color: #9e9696; 
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.LogoIcons i:hover {
+    color: white;
+}

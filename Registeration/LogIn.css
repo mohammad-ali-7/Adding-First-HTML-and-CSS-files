@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #171717;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+
+.Header{
+    color: white;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 500px;
+}
+
+.Header p{
+    color: #999999;
+}
+
